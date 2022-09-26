@@ -1,0 +1,40 @@
+.navigation-bar{
+    background-color: rgb(154, 239, 148);
+    padding: 1rem 2rem;
+}    
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* .navigation-brand{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.navigation-brand a{
+    font-size: 1.5 rem;
+    font-weight: 600;
+    color: rgb(39, 11, 11);
+    text-decoration: none;
+}
+.navigation-list {
+    display: flex;
+    list-style: none;
+    gap:  1rem;
+}
+.navigation-list a{
+    text-decoration: none;
+    color: rgb(37, 13, 13);
+    font-size: 0.8rem;
+}
+.navigation-list a:hover{
+    color: rgb(50, 50, 121);
+    font-weight: 700;
+    transition: .5s;
+}
+
+/* .navigation-list */

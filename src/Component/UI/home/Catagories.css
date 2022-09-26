@@ -1,0 +1,21 @@
+.catagories-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.home-catogaries-container{
+    margin: 30px;
+}
+
+.catagory-card{
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+
+.catagories-row h3{
+    margin-top: 5px;
+    font-weight: 400;
+}

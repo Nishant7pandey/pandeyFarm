@@ -1,0 +1,44 @@
+.home-bestseller-container{
+    margin: 30px;
+}
+
+.bestseller-row{
+    display: flex;
+    flex-direction: row;
+    margin-top:2.5rem;
+    justify-content: space-between;
+    text-align: center;
+    overflow-x:scroll;
+}
+
+.bestseller-card{
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    margin-right: 2rem ;
+}
+
+.bestseller-card h3{
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.oldprice{
+    text-decoration: line-through;
+}
+
+.button{
+    background-color:#114C36 ;
+    color:aliceblue;
+    border-radius: 5px;
+    margin:0px;
+}
+.button:hover{
+    background-color: aliceblue;
+    transition: all .4s ease-in-out;
+}
